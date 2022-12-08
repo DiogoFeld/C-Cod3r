@@ -5,7 +5,7 @@ using Fundamentos.Fundamentos;
 
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
-FormatingNumber programa = new FormatingNumber();
+Converting programa = new Converting();
 
 
 programa.Main();
