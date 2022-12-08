@@ -5,7 +5,7 @@ using Fundamentos.Fundamentos;
 
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
-Inferencia programa = new Inferencia();
+FormatingNumber programa = new FormatingNumber();
 
 
 programa.Main();
