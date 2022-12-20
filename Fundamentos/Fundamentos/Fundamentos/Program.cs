@@ -5,7 +5,7 @@ using Fundamentos.Fundamentos;
 
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
-Converting programa = new Converting();
+operadorTernario programa = new operadorTernario();
 
 
 programa.Main();

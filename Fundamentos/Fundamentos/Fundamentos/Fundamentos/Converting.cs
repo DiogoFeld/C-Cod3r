@@ -23,7 +23,7 @@ namespace Fundamentos.Fundamentos
             int.TryParse(palavraNumero, out numero);//tente converter, caso de certa, assuma o segundo valor            Console.WriteLine("Digite um numero");
             Console.WriteLine("resultado é:  {0}",numero);
 
-
-        }
+        }   
+    
     }
 }
