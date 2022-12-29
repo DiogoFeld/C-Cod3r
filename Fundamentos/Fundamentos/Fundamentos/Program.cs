@@ -7,6 +7,5 @@ using Enum = Fundamentos.ClasseEMetodos.Enum;
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
 
-
-ArrayListEx p = new ArrayListEx();
+DictionaryEx p = new DictionaryEx();
 p.Main();

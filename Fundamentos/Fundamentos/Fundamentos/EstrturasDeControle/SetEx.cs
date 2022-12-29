@@ -6,28 +6,15 @@ using System.Threading.Tasks;
 
 namespace Fundamentos.EstrturasDeControle
 {
-    public class Produto
-    {
-        public string Nome;
-        public int Preco;
-
-        public Produto(string nome, int preco)
-        {
-            Nome = nome;
-            Preco = preco;
-        }
-    }
-
-
-    internal class ListEx
+    internal class SetEx
     {
         public void Main()
         {
             Produto p1 = new Produto("GOT", 45);
-            List<Produto> carrinho = new List<Produto>();
+            HashSet<Produto> carrinho = new HashSet<Produto>();
             carrinho.Add(p1);
 
-            List<Produto> comboDeProduto = new List<Produto>
+            HashSet<Produto> comboDeProduto = new HashSet<Produto>
             {
                 new Produto("camisa",99),
                 new Produto("calca",159),
@@ -35,19 +22,19 @@ namespace Fundamentos.EstrturasDeControle
                 new Produto("sunga",30),
             };
             printList(comboDeProduto);
-            comboDeProduto.RemoveAt(1);
+            comboDeProduto.UnionWith(carrinho);
             printList(comboDeProduto);
             comboDeProduto.Add(p1);
-            //duplicado
+            //duplicados não são adicionados
             comboDeProduto.Add(p1);
             printList(comboDeProduto);
-            Console.WriteLine(comboDeProduto.LastIndexOf(p1));
+
 
 
 
         }
 
-        void printList(List<Produto> lista)
+        void printList(HashSet<Produto> lista)
         {
             foreach (Produto p in lista)
             {
@@ -58,7 +45,10 @@ namespace Fundamentos.EstrturasDeControle
         }
 
 
+
+
+
+
+
     }
-
-
 }
