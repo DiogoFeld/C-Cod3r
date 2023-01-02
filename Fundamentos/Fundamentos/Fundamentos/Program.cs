@@ -3,10 +3,11 @@ using Fundamentos.ClasseEMetodos;
 using Fundamentos.EstrturasDeControle;
 using Fundamentos.EstruturaDe_controle;
 using Fundamentos.Fundamentos;
+using Fundamentos.MetodosEFuncoes;
 using Fundamentos.OO;
 using Enum = Fundamentos.ClasseEMetodos.Enum;
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
 
-Sealed p = new Sealed();
+MetodosDeExtensao p = new MetodosDeExtensao();
 p.Main();
