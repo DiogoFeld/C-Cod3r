@@ -8,5 +8,5 @@ using Enum = Fundamentos.ClasseEMetodos.Enum;
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
 
-Encapsulamento p = new Encapsulamento();
+Sealed p = new Sealed();
 p.Main();
