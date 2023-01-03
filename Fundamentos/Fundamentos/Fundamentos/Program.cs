@@ -2,6 +2,7 @@
 using Fundamentos.ClasseEMetodos;
 using Fundamentos.EstrturasDeControle;
 using Fundamentos.EstruturaDe_controle;
+using Fundamentos.Execoes;
 using Fundamentos.Fundamentos;
 using Fundamentos.MetodosEFuncoes;
 using Fundamentos.OO;
@@ -9,5 +10,5 @@ using Enum = Fundamentos.ClasseEMetodos.Enum;
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
 
-MetodosDeExtensao p = new MetodosDeExtensao();
+ExecaoesPersonalizadas p = new ExecaoesPersonalizadas();
 p.Main();
