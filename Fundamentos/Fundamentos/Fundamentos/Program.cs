@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Fundamentos.Advanced;
 using Fundamentos.Api;
 using Fundamentos.ClasseEMetodos;
 using Fundamentos.EstrturasDeControle;
@@ -11,5 +12,5 @@ using Enum = Fundamentos.ClasseEMetodos.Enum;
 
 //PrimeiroPrograma primeiroPrograma = new PrimeiroPrograma();
 
-TimeSpanEx p = new TimeSpanEx();
+GenericsEx p = new GenericsEx();
 p.Main();
